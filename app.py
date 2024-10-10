@@ -7,7 +7,7 @@ import webbrowser
 from spider import crawl_request, crawl
 
 credentials = []
-port = 5000
+port = 5281
 
 app = Flask(__name__, static_folder='webui/dist')
 
